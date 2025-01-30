@@ -1,0 +1,15 @@
+name: Super-Linter
+
+on: push
+
+jobs:
+  test:
+    name: TDS Ass2 Q7
+    runs-on: ubuntu-latest
+    steps:
+      - name: kethu.seshasarathreddy@gramener.com
+        run: echo "Hello, world!"
+
+        env:
+          DEFAULT_BRANCH: main
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
